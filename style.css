@@ -373,7 +373,7 @@ hr {
 .section-md {
     margin-top: 100px;
     height: 300px;
-    width: 100%;
+    width: 99%;
     background-color: #00bcd4;
 }
 
@@ -440,4 +440,53 @@ hr {
 .heading-decorated {
     padding-top: 93px;
     font-size: 30px;
+}
+
+.buton{
+    font-size:18px;
+}
+
+.italic{
+    font-size: 20px;
+    color: #00bcd4;
+    font-weight: 400;
+}
+
+.object-wrap img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.object-wrap {
+    position: relative;
+    overflow: hidden;
+    background-color: #F8F8F8;
+}
+
+.section-wrap {
+    background-color: #F8F8F8;
+}
+
+.section-wrap-body {
+    margin: 100px 0px;
+}
+
+.section-wrap-body h4 {
+    margin-bottom: 20px;
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.send {
+    color: snow;
+    background-color: #00bcd4;
+    padding: 10px 25px;
+}
+
+.send:hover {
+    background-color: #000;
+    color: snow;
+    transition: 0.5s;
 }
